@@ -1,0 +1,319 @@
+[0.000000] (-) TimerEvent: {}
+[0.000747] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.001051] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict()}
+[0.001323] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.071990] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.099515] (-) TimerEvent: {}
+[0.193592] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.199661] (-) TimerEvent: {}
+[0.222791] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.224096] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/letizia/Documentos/ros2_ws/build/my_cpp_pkg', '--', '-j4', '-l4'], 'cwd': '/home/letizia/Documentos/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'letizia'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/letizia'), ('OLDPWD', '/home/letizia'), ('DESKTOP_SESSION', 'pop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'pop'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2070'), ('SYSTEMD_EXEC_PID', '2468'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QSYS_ROOTDIR', '/home/letizia/intelFPGA_lite/20.1/quartus/sopc_builder/bin'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '89304'), ('COLCON_PREFIX_PATH', '/home/letizia/Documentos/number_counter/install:/home/letizia/Documentos/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'letizia'), ('JOURNAL_STREAM', '9:19624'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'letizia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/letizia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/pop-os:@/tmp/.ICE-unix/2253,unix/pop-os:/tmp/.ICE-unix/2253'), ('INVOCATION_ID', 'f9dd03a0ea57456db4541b4f6d8fcdc8'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'pop:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'pop'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/letizia/Documentos/number_counter/install/my_counter:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:4da57ca6-dffd-4609-8ad4-0101214f6244'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'pop'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/letizia/Documentos/ros2_ws/build/my_cpp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-pop:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/pop:/usr/share/gnome:/home/letizia/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/letizia/Documentos/number_counter/install/my_counter:/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.299973] (-) TimerEvent: {}
+[0.400334] (-) TimerEvent: {}
+[0.500718] (-) TimerEvent: {}
+[0.601102] (-) TimerEvent: {}
+[0.701535] (-) TimerEvent: {}
+[0.802142] (-) TimerEvent: {}
+[0.902867] (-) TimerEvent: {}
+[1.003555] (-) TimerEvent: {}
+[1.104268] (-) TimerEvent: {}
+[1.204718] (-) TimerEvent: {}
+[1.305129] (-) TimerEvent: {}
+[1.334483] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target smartphone\x1b[0m\n'}
+[1.377736] (my_cpp_pkg) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o\x1b[0m\n'}
+[1.403662] (my_cpp_pkg) StdoutLine: {'line': b'[ 50%] Built target cpp_node\n'}
+[1.403987] (my_cpp_pkg) StdoutLine: {'line': b'[ 83%] Built target robot_news_station\n'}
+[1.405218] (-) TimerEvent: {}
+[1.505550] (-) TimerEvent: {}
+[1.605922] (-) TimerEvent: {}
+[1.706314] (-) TimerEvent: {}
+[1.806915] (-) TimerEvent: {}
+[1.907643] (-) TimerEvent: {}
+[2.008322] (-) TimerEvent: {}
+[2.109182] (-) TimerEvent: {}
+[2.209877] (-) TimerEvent: {}
+[2.310714] (-) TimerEvent: {}
+[2.411466] (-) TimerEvent: {}
+[2.512171] (-) TimerEvent: {}
+[2.612870] (-) TimerEvent: {}
+[2.713646] (-) TimerEvent: {}
+[2.814371] (-) TimerEvent: {}
+[2.915215] (-) TimerEvent: {}
+[3.015947] (-) TimerEvent: {}
+[3.108459] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_py_pkg', 'build', '--build-base', '/home/letizia/Documentos/ros2_ws/build/my_py_pkg/build', 'install', '--record', '/home/letizia/Documentos/ros2_ws/build/my_py_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/letizia/Documentos/ros2_ws/src/my_py_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'letizia', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/letizia', 'OLDPWD': '/home/letizia', 'DESKTOP_SESSION': 'pop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'pop', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2070', 'SYSTEMD_EXEC_PID': '2468', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'QSYS_ROOTDIR': '/home/letizia/intelFPGA_lite/20.1/quartus/sopc_builder/bin', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '89304', 'COLCON_PREFIX_PATH': '/home/letizia/Documentos/number_counter/install:/home/letizia/Documentos/ros2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'letizia', 'JOURNAL_STREAM': '9:19624', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'letizia', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/letizia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/pop-os:@/tmp/.ICE-unix/2253,unix/pop-os:/tmp/.ICE-unix/2253', 'INVOCATION_ID': 'f9dd03a0ea57456db4541b4f6d8fcdc8', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'pt_BR.UTF-8', 'XDG_CURRENT_DESKTOP': 'pop:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'pop', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/letizia/Documentos/number_counter/install/my_counter:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:4da57ca6-dffd-4609-8ad4-0101214f6244', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'pop', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/letizia/Documentos/ros2_ws/build/my_py_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-pop:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/pop:/usr/share/gnome:/home/letizia/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/', 'PYTHONPATH': '/home/letizia/Documentos/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/letizia/Documentos/number_counter/install/my_counter:/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg'}, 'shell': False}
+[3.116037] (-) TimerEvent: {}
+[3.216442] (-) TimerEvent: {}
+[3.316842] (-) TimerEvent: {}
+[3.417206] (-) TimerEvent: {}
+[3.499360] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[3.501305] (my_py_pkg) StdoutLine: {'line': b'writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO\n'}
+[3.501832] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt\n'}
+[3.502187] (my_py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt\n'}
+[3.502497] (my_py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt\n'}
+[3.502820] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt\n'}
+[3.506424] (my_py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[3.517339] (-) TimerEvent: {}
+[3.538544] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[3.539015] (my_py_pkg) StdoutLine: {'line': b'running build\n'}
+[3.539250] (my_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[3.539495] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/add_two_ints_server.py -> /home/letizia/Documentos/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[3.539962] (my_py_pkg) StdoutLine: {'line': b'running install\n'}
+[3.540557] (my_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[3.541878] (my_py_pkg) StdoutLine: {'line': b'copying /home/letizia/Documentos/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_server.py -> /home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[3.543164] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_server.py to add_two_ints_server.cpython-310.pyc\n'}
+[3.544727] (my_py_pkg) StderrLine: {'line': b'Sorry: TabError: inconsistent use of tabs and spaces in indentation (add_two_ints_server.py, line 10)\n'}
+[3.545109] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[3.545453] (my_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.549577] (my_py_pkg) StdoutLine: {'line': b"removing '/home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.563497] (my_py_pkg) StdoutLine: {'line': b'Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info\n'}
+[3.576056] (my_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[3.609149] (my_py_pkg) StdoutLine: {'line': b'Installing py_node script to /home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[3.609505] (my_py_pkg) StdoutLine: {'line': b'Installing robot_news_station script to /home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[3.609874] (my_py_pkg) StdoutLine: {'line': b'Installing smartphone script to /home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[3.610493] (my_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/letizia/Documentos/ros2_ws/build/my_py_pkg/install.log'\n"}
+[3.617447] (-) TimerEvent: {}
+[3.647970] (my_py_pkg) CommandEnded: {'returncode': 0}
+[3.717587] (-) TimerEvent: {}
+[3.818227] (-) TimerEvent: {}
+[3.831902] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[3.918400] (-) TimerEvent: {}
+[4.018878] (-) TimerEvent: {}
+[4.119495] (-) TimerEvent: {}
+[4.220015] (-) TimerEvent: {}
+[4.320757] (-) TimerEvent: {}
+[4.421436] (-) TimerEvent: {}
+[4.521943] (-) TimerEvent: {}
+[4.622635] (-) TimerEvent: {}
+[4.723180] (-) TimerEvent: {}
+[4.823983] (-) TimerEvent: {}
+[4.924746] (-) TimerEvent: {}
+[5.025573] (-) TimerEvent: {}
+[5.126365] (-) TimerEvent: {}
+[5.227254] (-) TimerEvent: {}
+[5.328048] (-) TimerEvent: {}
+[5.428772] (-) TimerEvent: {}
+[5.529686] (-) TimerEvent: {}
+[5.630376] (-) TimerEvent: {}
+[5.731292] (-) TimerEvent: {}
+[5.831966] (-) TimerEvent: {}
+[5.932787] (-) TimerEvent: {}
+[6.033572] (-) TimerEvent: {}
+[6.134440] (-) TimerEvent: {}
+[6.235165] (-) TimerEvent: {}
+[6.335862] (-) TimerEvent: {}
+[6.436301] (-) TimerEvent: {}
+[6.536984] (-) TimerEvent: {}
+[6.637540] (-) TimerEvent: {}
+[6.738010] (-) TimerEvent: {}
+[6.838505] (-) TimerEvent: {}
+[6.938985] (-) TimerEvent: {}
+[7.039676] (-) TimerEvent: {}
+[7.140070] (-) TimerEvent: {}
+[7.240523] (-) TimerEvent: {}
+[7.341265] (-) TimerEvent: {}
+[7.441994] (-) TimerEvent: {}
+[7.542438] (-) TimerEvent: {}
+[7.642796] (-) TimerEvent: {}
+[7.743177] (-) TimerEvent: {}
+[7.843574] (-) TimerEvent: {}
+[7.943982] (-) TimerEvent: {}
+[8.044338] (-) TimerEvent: {}
+[8.144690] (-) TimerEvent: {}
+[8.245072] (-) TimerEvent: {}
+[8.345494] (-) TimerEvent: {}
+[8.445881] (-) TimerEvent: {}
+[8.546301] (-) TimerEvent: {}
+[8.646783] (-) TimerEvent: {}
+[8.747216] (-) TimerEvent: {}
+[8.847678] (-) TimerEvent: {}
+[8.948161] (-) TimerEvent: {}
+[9.048584] (-) TimerEvent: {}
+[9.149051] (-) TimerEvent: {}
+[9.249456] (-) TimerEvent: {}
+[9.349884] (-) TimerEvent: {}
+[9.450356] (-) TimerEvent: {}
+[9.550804] (-) TimerEvent: {}
+[9.651225] (-) TimerEvent: {}
+[9.751667] (-) TimerEvent: {}
+[9.852060] (-) TimerEvent: {}
+[9.952462] (-) TimerEvent: {}
+[10.052879] (-) TimerEvent: {}
+[10.153252] (-) TimerEvent: {}
+[10.253680] (-) TimerEvent: {}
+[10.354156] (-) TimerEvent: {}
+[10.454623] (-) TimerEvent: {}
+[10.555101] (-) TimerEvent: {}
+[10.655487] (-) TimerEvent: {}
+[10.755860] (-) TimerEvent: {}
+[10.856240] (-) TimerEvent: {}
+[10.956685] (-) TimerEvent: {}
+[11.057137] (-) TimerEvent: {}
+[11.157535] (-) TimerEvent: {}
+[11.257937] (-) TimerEvent: {}
+[11.358337] (-) TimerEvent: {}
+[11.458798] (-) TimerEvent: {}
+[11.559244] (-) TimerEvent: {}
+[11.659701] (-) TimerEvent: {}
+[11.760127] (-) TimerEvent: {}
+[11.860540] (-) TimerEvent: {}
+[11.960983] (-) TimerEvent: {}
+[12.061416] (-) TimerEvent: {}
+[12.161889] (-) TimerEvent: {}
+[12.262323] (-) TimerEvent: {}
+[12.362831] (-) TimerEvent: {}
+[12.463297] (-) TimerEvent: {}
+[12.563636] (-) TimerEvent: {}
+[12.664024] (-) TimerEvent: {}
+[12.764441] (-) TimerEvent: {}
+[12.865376] (-) TimerEvent: {}
+[12.965765] (-) TimerEvent: {}
+[13.066215] (-) TimerEvent: {}
+[13.166560] (-) TimerEvent: {}
+[13.267024] (-) TimerEvent: {}
+[13.367463] (-) TimerEvent: {}
+[13.468035] (-) TimerEvent: {}
+[13.568411] (-) TimerEvent: {}
+[13.668812] (-) TimerEvent: {}
+[13.769268] (-) TimerEvent: {}
+[13.869725] (-) TimerEvent: {}
+[13.970092] (-) TimerEvent: {}
+[14.070484] (-) TimerEvent: {}
+[14.170875] (-) TimerEvent: {}
+[14.271227] (-) TimerEvent: {}
+[14.371567] (-) TimerEvent: {}
+[14.471961] (-) TimerEvent: {}
+[14.572412] (-) TimerEvent: {}
+[14.672837] (-) TimerEvent: {}
+[14.775693] (-) TimerEvent: {}
+[14.876150] (-) TimerEvent: {}
+[14.976550] (-) TimerEvent: {}
+[15.076945] (-) TimerEvent: {}
+[15.177325] (-) TimerEvent: {}
+[15.277738] (-) TimerEvent: {}
+[15.378126] (-) TimerEvent: {}
+[15.478541] (-) TimerEvent: {}
+[15.578966] (-) TimerEvent: {}
+[15.679368] (-) TimerEvent: {}
+[15.779770] (-) TimerEvent: {}
+[15.880179] (-) TimerEvent: {}
+[15.980520] (-) TimerEvent: {}
+[16.080872] (-) TimerEvent: {}
+[16.181263] (-) TimerEvent: {}
+[16.281683] (-) TimerEvent: {}
+[16.382274] (-) TimerEvent: {}
+[16.482689] (-) TimerEvent: {}
+[16.583098] (-) TimerEvent: {}
+[16.683508] (-) TimerEvent: {}
+[16.783945] (-) TimerEvent: {}
+[16.884345] (-) TimerEvent: {}
+[16.984767] (-) TimerEvent: {}
+[17.085155] (-) TimerEvent: {}
+[17.185562] (-) TimerEvent: {}
+[17.285894] (-) TimerEvent: {}
+[17.386206] (-) TimerEvent: {}
+[17.486581] (-) TimerEvent: {}
+[17.586964] (-) TimerEvent: {}
+[17.687331] (-) TimerEvent: {}
+[17.787706] (-) TimerEvent: {}
+[17.888088] (-) TimerEvent: {}
+[17.988464] (-) TimerEvent: {}
+[18.088836] (-) TimerEvent: {}
+[18.189197] (-) TimerEvent: {}
+[18.289571] (-) TimerEvent: {}
+[18.389937] (-) TimerEvent: {}
+[18.490322] (-) TimerEvent: {}
+[18.590677] (-) TimerEvent: {}
+[18.691149] (-) TimerEvent: {}
+[18.791811] (-) TimerEvent: {}
+[18.892683] (-) TimerEvent: {}
+[18.993529] (-) TimerEvent: {}
+[19.094428] (-) TimerEvent: {}
+[19.195067] (-) TimerEvent: {}
+[19.295823] (-) TimerEvent: {}
+[19.396281] (-) TimerEvent: {}
+[19.496979] (-) TimerEvent: {}
+[19.597419] (-) TimerEvent: {}
+[19.698212] (-) TimerEvent: {}
+[19.799019] (-) TimerEvent: {}
+[19.899490] (-) TimerEvent: {}
+[20.000239] (-) TimerEvent: {}
+[20.100994] (-) TimerEvent: {}
+[20.201458] (-) TimerEvent: {}
+[20.301874] (-) TimerEvent: {}
+[20.402260] (-) TimerEvent: {}
+[20.502690] (-) TimerEvent: {}
+[20.603007] (-) TimerEvent: {}
+[20.703395] (-) TimerEvent: {}
+[20.793233] (my_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable smartphone\x1b[0m\n'}
+[20.803513] (-) TimerEvent: {}
+[20.903947] (-) TimerEvent: {}
+[21.004720] (-) TimerEvent: {}
+[21.105252] (-) TimerEvent: {}
+[21.205831] (-) TimerEvent: {}
+[21.306499] (-) TimerEvent: {}
+[21.407178] (-) TimerEvent: {}
+[21.508026] (-) TimerEvent: {}
+[21.608853] (-) TimerEvent: {}
+[21.709518] (-) TimerEvent: {}
+[21.810143] (-) TimerEvent: {}
+[21.912507] (-) TimerEvent: {}
+[22.013329] (-) TimerEvent: {}
+[22.113893] (-) TimerEvent: {}
+[22.214736] (-) TimerEvent: {}
+[22.315210] (-) TimerEvent: {}
+[22.415788] (-) TimerEvent: {}
+[22.516418] (-) TimerEvent: {}
+[22.616834] (-) TimerEvent: {}
+[22.717340] (-) TimerEvent: {}
+[22.817980] (-) TimerEvent: {}
+[22.918470] (-) TimerEvent: {}
+[23.019305] (-) TimerEvent: {}
+[23.120138] (-) TimerEvent: {}
+[23.220835] (-) TimerEvent: {}
+[23.321633] (-) TimerEvent: {}
+[23.422444] (-) TimerEvent: {}
+[23.523263] (-) TimerEvent: {}
+[23.623894] (-) TimerEvent: {}
+[23.724642] (-) TimerEvent: {}
+[23.825282] (-) TimerEvent: {}
+[23.926302] (-) TimerEvent: {}
+[24.027488] (-) TimerEvent: {}
+[24.128139] (-) TimerEvent: {}
+[24.228771] (-) TimerEvent: {}
+[24.329368] (-) TimerEvent: {}
+[24.431168] (-) TimerEvent: {}
+[24.531715] (-) TimerEvent: {}
+[24.632347] (-) TimerEvent: {}
+[24.732746] (-) TimerEvent: {}
+[24.833101] (-) TimerEvent: {}
+[24.925842] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target smartphone\n'}
+[24.933225] (-) TimerEvent: {}
+[24.944080] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[24.974884] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'install'}
+[24.989025] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/letizia/Documentos/ros2_ws/build/my_cpp_pkg'], 'cwd': '/home/letizia/Documentos/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'letizia'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/letizia'), ('OLDPWD', '/home/letizia'), ('DESKTOP_SESSION', 'pop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'pop'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2070'), ('SYSTEMD_EXEC_PID', '2468'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QSYS_ROOTDIR', '/home/letizia/intelFPGA_lite/20.1/quartus/sopc_builder/bin'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '89304'), ('COLCON_PREFIX_PATH', '/home/letizia/Documentos/number_counter/install:/home/letizia/Documentos/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'letizia'), ('JOURNAL_STREAM', '9:19624'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'letizia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/letizia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/pop-os:@/tmp/.ICE-unix/2253,unix/pop-os:/tmp/.ICE-unix/2253'), ('INVOCATION_ID', 'f9dd03a0ea57456db4541b4f6d8fcdc8'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'pop:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'pop'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/letizia/Documentos/number_counter/install/my_counter:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:4da57ca6-dffd-4609-8ad4-0101214f6244'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'pop'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/letizia/Documentos/ros2_ws/build/my_cpp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-pop:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/pop:/usr/share/gnome:/home/letizia/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/letizia/Documentos/number_counter/install/my_counter:/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[25.033352] (-) TimerEvent: {}
+[25.063290] (my_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[25.133525] (-) TimerEvent: {}
+[25.164010] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node\n'}
+[25.224913] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station\n'}
+[25.233706] (-) TimerEvent: {}
+[25.258247] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone\n'}
+[25.280977] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone" to ""\n'}
+[25.281660] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg\n'}
+[25.282071] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg\n'}
+[25.282413] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[25.282779] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[25.283384] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh\n'}
+[25.283757] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv\n'}
+[25.284103] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash\n'}
+[25.284435] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh\n'}
+[25.284822] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh\n'}
+[25.285561] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv\n'}
+[25.285962] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv\n'}
+[25.286307] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg\n'}
+[25.286671] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake\n'}
+[25.287017] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake\n'}
+[25.287309] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml\n'}
+[25.289190] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[25.314703] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 0}
+[25.315983] (-) EventReactorShutdown: {}
