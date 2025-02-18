@@ -39,8 +39,6 @@ class AddTwoInstClientNode(Node):
             self.get_logger().error("Service call failed %r" % (e,))
 
 
-
-
 def main(args=None):
     rclpy.init(args=args)
     node = AddTwoInstClientNode() 

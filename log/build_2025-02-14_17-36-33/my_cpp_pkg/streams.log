@@ -1,0 +1,44 @@
+[0.031s] Invoking command in '/home/letizia/Documentos/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/letizia/Documentos/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+[0.187s] [ 16%] Built target robot_news_station
+[0.219s] [ 33%] Built target add_two_ints_server
+[0.229s] [ 50%] Built target cpp_node
+[0.241s] [ 66%] Built target smartphone
+[0.267s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_client[0m
+[0.302s] [ 83%] Built target add_two_ints_client_no_oop
+[0.315s] [ 91%] [32mBuilding CXX object CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o[0m
+[5.261s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.261s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.262s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.262s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.262s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.262s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.263s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.263s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.263s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.263s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.263s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.263s]                  from [01m[K/home/letizia/Documentos/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:1[m[K:
+[5.263s] [01m[K/home/letizia/Documentos/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:[m[K In member function ‘[01m[Kvoid AddTwoIntsClientNode::callAddTwoIntsService(int, int)[m[K’:
+[5.264s] [01m[K/home/letizia/Documentos/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:38:47:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst std::exception[m[K’ to ‘[01m[Kconst char*[m[K’
+[5.264s]    38 |             RCLCPP_ERROR(this->get_logger(),  [01;31m[Ke[m[K);
+[5.264s]       |                                               [01;31m[K^[m[K
+[5.264s]       |                                               [01;31m[K|[m[K
+[5.264s]       |                                               [01;31m[Kconst std::exception[m[K
+[5.264s] In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[5.265s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[5.265s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[5.265s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[5.265s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[5.265s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[5.265s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[5.266s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.266s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.266s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.266s]                  from [01m[K/home/letizia/Documentos/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:1[m[K:
+[5.266s] [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:479:16:[m[K [01;36m[Knote: [m[K  initializing argument 4 of ‘[01m[Kvoid rcutils_log(const rcutils_log_location_t*, int, const char*, const char*, ...)[m[K’
+[5.266s]   479 |   [01;36m[Kconst char * format[m[K,
+[5.267s]       |   [01;36m[K~~~~~~~~~~~~~^~~~~~[m[K
+[6.159s] gmake[2]: *** [CMakeFiles/add_two_ints_client.dir/build.make:76: CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o] Erro 1
+[6.159s] gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/add_two_ints_client.dir/all] Erro 2
+[6.160s] gmake: *** [Makefile:146: all] Erro 2
+[6.164s] Invoked command in '/home/letizia/Documentos/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/letizia/Documentos/ros2_ws/build/my_cpp_pkg -- -j4 -l4
