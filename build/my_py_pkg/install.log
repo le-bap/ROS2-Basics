@@ -3,6 +3,7 @@
 /home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/robot_news_station.py
 /home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_client.py
 /home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_client_no_oop.py
+/home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/hardware_status_publisher.py
 /home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_server.py
 /home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/smartphone.py
 /home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__pycache__/__init__.cpython-310.pyc
@@ -10,6 +11,7 @@
 /home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__pycache__/robot_news_station.cpython-310.pyc
 /home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__pycache__/add_two_ints_client.cpython-310.pyc
 /home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__pycache__/add_two_ints_client_no_oop.cpython-310.pyc
+/home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__pycache__/hardware_status_publisher.cpython-310.pyc
 /home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__pycache__/add_two_ints_server.cpython-310.pyc
 /home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__pycache__/smartphone.cpython-310.pyc
 /home/letizia/Documentos/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages/my_py_pkg
@@ -24,6 +26,7 @@
 /home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib/my_py_pkg/add_two_ints_client
 /home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib/my_py_pkg/add_two_ints_client_no_oop
 /home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib/my_py_pkg/add_two_ints_server
+/home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib/my_py_pkg/hw_status_publisher
 /home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib/my_py_pkg/py_node
 /home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib/my_py_pkg/robot_news_station
 /home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib/my_py_pkg/smartphone

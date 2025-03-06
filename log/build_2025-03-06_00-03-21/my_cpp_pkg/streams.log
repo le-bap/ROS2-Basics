@@ -1,0 +1,66 @@
+[0.139s] Invoking command in '/home/letizia/Documentos/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/letizia/Documentos/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+[0.698s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.079s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.432s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.449s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.475s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.598s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.694s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.263s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.274s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.764s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.259s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[3.535s] -- Found my_robot_interfaces: 0.0.0 (/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[3.588s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.837s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.839s] -- Configured cppcheck include dirs: 
+[3.840s] -- Configured cppcheck exclude dirs and/or files: 
+[3.844s] -- Added test 'lint_cmake' to check CMake code style
+[3.850s] -- Added test 'uncrustify' to check C / C++ code style
+[3.850s] -- Configured uncrustify additional arguments: 
+[3.853s] -- Added test 'xmllint' to check XML markup files
+[3.859s] -- Configuring done
+[4.251s] -- Generating done
+[4.279s] -- Build files have been written to: /home/letizia/Documentos/ros2_ws/build/my_cpp_pkg
+[4.323s] [35m[1mConsolidate compiler generated dependencies of target robot_news_station[0m
+[4.346s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_server[0m
+[4.348s] [ 14%] Built target robot_news_station
+[4.372s] [35m[1mConsolidate compiler generated dependencies of target smartphone[0m
+[4.376s] [ 28%] Built target add_two_ints_server
+[4.403s] [35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[4.406s] [ 42%] Built target smartphone
+[4.411s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_client_no_oop[0m
+[4.429s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_client[0m
+[4.438s] [ 57%] Built target cpp_node
+[4.443s] [ 64%] [32mBuilding CXX object CMakeFiles/hw_status_publisher.dir/src/hardware_status_publisher.cpp.o[0m
+[4.445s] [ 78%] Built target add_two_ints_client_no_oop
+[4.458s] [ 92%] Built target add_two_ints_client
+[11.036s] [100%] [32m[1mLinking CXX executable hw_status_publisher[0m
+[12.233s] [100%] Built target hw_status_publisher
+[12.248s] Invoked command in '/home/letizia/Documentos/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/letizia/Documentos/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+[12.250s] Invoking command in '/home/letizia/Documentos/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/letizia/Documentos/ros2_ws/build/my_cpp_pkg
+[12.263s] -- Install configuration: ""
+[12.263s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[12.263s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[12.263s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+[12.264s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server
+[12.264s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop
+[12.264s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client
+[12.264s] -- Installing: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/hw_status_publisher
+[12.266s] -- Set runtime path of "/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/hw_status_publisher" to ""
+[12.266s] -- Installing: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[12.266s] -- Installing: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[12.266s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[12.267s] -- Installing: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[12.267s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[12.267s] -- Installing: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[12.268s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[12.268s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[12.268s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[12.268s] -- Installing: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[12.268s] -- Installing: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[12.268s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[12.269s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[12.269s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[12.269s] -- Installing: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[12.272s] Invoked command in '/home/letizia/Documentos/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/letizia/Documentos/ros2_ws/build/my_cpp_pkg
