@@ -1,0 +1,11 @@
+/home/letizia/Documentos/ros2_ws/build/my_counter/CMakeFiles/uninstall.dir
+/home/letizia/Documentos/ros2_ws/build/my_counter/CMakeFiles/my_counter_uninstall.dir
+/home/letizia/Documentos/ros2_ws/build/my_counter/CMakeFiles/number_publisher.dir
+/home/letizia/Documentos/ros2_ws/build/my_counter/CMakeFiles/number_counter.dir
+/home/letizia/Documentos/ros2_ws/build/my_counter/CMakeFiles/test.dir
+/home/letizia/Documentos/ros2_ws/build/my_counter/CMakeFiles/edit_cache.dir
+/home/letizia/Documentos/ros2_ws/build/my_counter/CMakeFiles/rebuild_cache.dir
+/home/letizia/Documentos/ros2_ws/build/my_counter/CMakeFiles/list_install_components.dir
+/home/letizia/Documentos/ros2_ws/build/my_counter/CMakeFiles/install.dir
+/home/letizia/Documentos/ros2_ws/build/my_counter/CMakeFiles/install/local.dir
+/home/letizia/Documentos/ros2_ws/build/my_counter/CMakeFiles/install/strip.dir

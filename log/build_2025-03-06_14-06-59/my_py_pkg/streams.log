@@ -1,0 +1,27 @@
+[2.193s] Invoking command in '/home/letizia/Documentos/ros2_ws/src/my_py_pkg': CMAKE_PREFIX_PATH=/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces:/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg:/home/letizia/Documentos/number_counter/install/my_counter PYTHONPATH=/home/letizia/Documentos/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/letizia/Documentos/ros2_ws/build/my_py_pkg/build install --record /home/letizia/Documentos/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[3.287s] running egg_info
+[3.289s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[3.290s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[3.292s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[3.293s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[3.293s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[3.296s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[3.301s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[3.301s] running build
+[3.301s] running build_py
+[3.302s] running install
+[3.307s] running install_lib
+[3.308s] running install_data
+[3.308s] running install_egg_info
+[3.315s] removing '/home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[3.315s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[3.319s] running install_scripts
+[3.381s] Installing add_two_ints_client script to /home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.382s] Installing add_two_ints_client_no_oop script to /home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.384s] Installing add_two_ints_server script to /home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.384s] Installing hw_status_publisher script to /home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.384s] Installing py_node script to /home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.385s] Installing robot_news_station script to /home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.385s] Installing smartphone script to /home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.390s] writing list of installed files to '/home/letizia/Documentos/ros2_ws/build/my_py_pkg/install.log'
+[3.470s] Invoked command in '/home/letizia/Documentos/ros2_ws/src/my_py_pkg' returned '0': CMAKE_PREFIX_PATH=/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces:/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg:/home/letizia/Documentos/number_counter/install/my_counter PYTHONPATH=/home/letizia/Documentos/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/letizia/Documentos/ros2_ws/build/my_py_pkg/build install --record /home/letizia/Documentos/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data

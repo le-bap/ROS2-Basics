@@ -1,0 +1,17 @@
+/home/letizia/Documentos/ros2_ws/install/my_counter/lib/my_counter/number_publisher
+/home/letizia/Documentos/ros2_ws/install/my_counter/lib/my_counter/number_counter
+/home/letizia/Documentos/ros2_ws/install/my_counter/share/ament_index/resource_index/package_run_dependencies/my_counter
+/home/letizia/Documentos/ros2_ws/install/my_counter/share/ament_index/resource_index/parent_prefix_path/my_counter
+/home/letizia/Documentos/ros2_ws/install/my_counter/share/my_counter/environment/ament_prefix_path.sh
+/home/letizia/Documentos/ros2_ws/install/my_counter/share/my_counter/environment/ament_prefix_path.dsv
+/home/letizia/Documentos/ros2_ws/install/my_counter/share/my_counter/environment/path.sh
+/home/letizia/Documentos/ros2_ws/install/my_counter/share/my_counter/environment/path.dsv
+/home/letizia/Documentos/ros2_ws/install/my_counter/share/my_counter/local_setup.bash
+/home/letizia/Documentos/ros2_ws/install/my_counter/share/my_counter/local_setup.sh
+/home/letizia/Documentos/ros2_ws/install/my_counter/share/my_counter/local_setup.zsh
+/home/letizia/Documentos/ros2_ws/install/my_counter/share/my_counter/local_setup.dsv
+/home/letizia/Documentos/ros2_ws/install/my_counter/share/my_counter/package.dsv
+/home/letizia/Documentos/ros2_ws/install/my_counter/share/ament_index/resource_index/packages/my_counter
+/home/letizia/Documentos/ros2_ws/install/my_counter/share/my_counter/cmake/my_counterConfig.cmake
+/home/letizia/Documentos/ros2_ws/install/my_counter/share/my_counter/cmake/my_counterConfig-version.cmake
+/home/letizia/Documentos/ros2_ws/install/my_counter/share/my_counter/package.xml
