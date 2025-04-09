@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target battery_node[0m
+[ 50%] Built target battery_node
+[100%] Built target led_panel
+-- Install configuration: ""
+-- Up-to-date: /home/letizia/Documentos/ros2_ws/install/battery_manager/lib/battery_manager/led_panel
+-- Up-to-date: /home/letizia/Documentos/ros2_ws/install/battery_manager/lib/battery_manager/battery_node
+-- Up-to-date: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/ament_index/resource_index/package_run_dependencies/battery_manager
+-- Up-to-date: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/ament_index/resource_index/parent_prefix_path/battery_manager
+-- Up-to-date: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/environment/ament_prefix_path.sh
+-- Up-to-date: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/environment/path.sh
+-- Up-to-date: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/environment/path.dsv
+-- Up-to-date: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/local_setup.bash
+-- Up-to-date: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/local_setup.sh
+-- Up-to-date: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/local_setup.zsh
+-- Up-to-date: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/local_setup.dsv
+-- Installing: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/package.dsv
+-- Up-to-date: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/ament_index/resource_index/packages/battery_manager
+-- Up-to-date: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/cmake/battery_managerConfig.cmake
+-- Up-to-date: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/cmake/battery_managerConfig-version.cmake
+-- Up-to-date: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/package.xml

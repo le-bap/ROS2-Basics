@@ -1,0 +1,1 @@
+Invoking command in '/home/letizia/Documentos/ros2_ws/build/my_robot_interfaces': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/letizia/Documentos/ros2_ws/build/my_robot_interfaces -- -j4 -l4

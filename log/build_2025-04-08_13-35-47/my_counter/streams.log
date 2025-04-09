@@ -1,0 +1,74 @@
+[0.031s] Invoking command in '/home/letizia/Documentos/ros2_ws/build/my_counter': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/letizia/Documentos/ros2_ws/src/my_counter -DCMAKE_INSTALL_PREFIX=/home/letizia/Documentos/ros2_ws/install/my_counter
+[0.537s] -- The C compiler identification is GNU 11.4.0
+[0.736s] -- The CXX compiler identification is GNU 11.4.0
+[0.777s] -- Detecting C compiler ABI info
+[0.991s] -- Detecting C compiler ABI info - done
+[1.011s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.015s] -- Detecting C compile features
+[1.032s] -- Detecting C compile features - done
+[1.042s] -- Detecting CXX compiler ABI info
+[1.275s] -- Detecting CXX compiler ABI info - done
+[1.294s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.295s] -- Detecting CXX compile features
+[1.296s] -- Detecting CXX compile features - done
+[1.379s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.744s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.106s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[2.242s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.255s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.271s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.290s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.317s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.579s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.616s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.079s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.211s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.321s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.408s] -- Looking for pthread.h
+[3.670s] -- Looking for pthread.h - found
+[3.671s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.892s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.894s] -- Found Threads: TRUE  
+[4.513s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[4.792s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.937s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.937s] -- Configured cppcheck include dirs: 
+[5.939s] -- Configured cppcheck exclude dirs and/or files: 
+[5.961s] -- Added test 'lint_cmake' to check CMake code style
+[5.974s] -- Added test 'uncrustify' to check C / C++ code style
+[6.005s] -- Configured uncrustify additional arguments: 
+[6.010s] -- Added test 'xmllint' to check XML markup files
+[6.043s] -- Configuring done
+[6.137s] -- Generating done
+[6.166s] -- Build files have been written to: /home/letizia/Documentos/ros2_ws/build/my_counter
+[6.191s] Invoked command in '/home/letizia/Documentos/ros2_ws/build/my_counter' returned '0': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/letizia/Documentos/ros2_ws/src/my_counter -DCMAKE_INSTALL_PREFIX=/home/letizia/Documentos/ros2_ws/install/my_counter
+[6.193s] Invoking command in '/home/letizia/Documentos/ros2_ws/build/my_counter': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/letizia/Documentos/ros2_ws/build/my_counter -- -j4 -l4
+[6.323s] [ 25%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o[0m
+[6.345s] [ 50%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[0m
+[24.718s] [ 75%] [32m[1mLinking CXX executable number_publisher[0m
+[26.207s] [ 75%] Built target number_publisher
+[54.443s] [100%] [32m[1mLinking CXX executable number_counter[0m
+[59.526s] [100%] Built target number_counter
+[59.614s] Invoked command in '/home/letizia/Documentos/ros2_ws/build/my_counter' returned '0': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/letizia/Documentos/ros2_ws/build/my_counter -- -j4 -l4
+[59.619s] Invoking command in '/home/letizia/Documentos/ros2_ws/build/my_counter': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/letizia/Documentos/ros2_ws/build/my_counter
+[59.673s] -- Install configuration: ""
+[59.686s] -- Installing: /home/letizia/Documentos/ros2_ws/install/my_counter/lib/my_counter/number_publisher
+[59.688s] -- Set runtime path of "/home/letizia/Documentos/ros2_ws/install/my_counter/lib/my_counter/number_publisher" to ""
+[59.689s] -- Installing: /home/letizia/Documentos/ros2_ws/install/my_counter/lib/my_counter/number_counter
+[59.739s] -- Set runtime path of "/home/letizia/Documentos/ros2_ws/install/my_counter/lib/my_counter/number_counter" to ""
+[59.739s] -- Installing: /home/letizia/Documentos/ros2_ws/install/my_counter/share/ament_index/resource_index/package_run_dependencies/my_counter
+[59.739s] -- Installing: /home/letizia/Documentos/ros2_ws/install/my_counter/share/ament_index/resource_index/parent_prefix_path/my_counter
+[59.739s] -- Installing: /home/letizia/Documentos/ros2_ws/install/my_counter/share/my_counter/environment/ament_prefix_path.sh
+[59.746s] -- Installing: /home/letizia/Documentos/ros2_ws/install/my_counter/share/my_counter/environment/ament_prefix_path.dsv
+[59.747s] -- Installing: /home/letizia/Documentos/ros2_ws/install/my_counter/share/my_counter/environment/path.sh
+[59.747s] -- Installing: /home/letizia/Documentos/ros2_ws/install/my_counter/share/my_counter/environment/path.dsv
+[59.747s] -- Installing: /home/letizia/Documentos/ros2_ws/install/my_counter/share/my_counter/local_setup.bash
+[59.752s] -- Installing: /home/letizia/Documentos/ros2_ws/install/my_counter/share/my_counter/local_setup.sh
+[59.752s] -- Installing: /home/letizia/Documentos/ros2_ws/install/my_counter/share/my_counter/local_setup.zsh
+[59.752s] -- Installing: /home/letizia/Documentos/ros2_ws/install/my_counter/share/my_counter/local_setup.dsv
+[59.753s] -- Installing: /home/letizia/Documentos/ros2_ws/install/my_counter/share/my_counter/package.dsv
+[59.754s] -- Installing: /home/letizia/Documentos/ros2_ws/install/my_counter/share/ament_index/resource_index/packages/my_counter
+[59.758s] -- Installing: /home/letizia/Documentos/ros2_ws/install/my_counter/share/my_counter/cmake/my_counterConfig.cmake
+[59.758s] -- Installing: /home/letizia/Documentos/ros2_ws/install/my_counter/share/my_counter/cmake/my_counterConfig-version.cmake
+[59.758s] -- Installing: /home/letizia/Documentos/ros2_ws/install/my_counter/share/my_counter/package.xml
+[59.776s] Invoked command in '/home/letizia/Documentos/ros2_ws/build/my_counter' returned '0': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/letizia/Documentos/ros2_ws/build/my_counter

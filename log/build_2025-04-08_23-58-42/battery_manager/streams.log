@@ -1,0 +1,47 @@
+[0.035s] Invoking command in '/home/letizia/Documentos/ros2_ws/build/battery_manager': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces:/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg:/home/letizia/Documentos/ros2_ws/install/battery_manager:/home/letizia/Documentos/ros2_ws/install/my_counter:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/letizia/Documentos/ros2_ws/build/battery_manager -- -j4 -l4
+[0.123s] [35m[1mConsolidate compiler generated dependencies of target battery_node[0m
+[0.174s] [ 50%] Built target led_panel
+[0.203s] [ 75%] [32mBuilding CXX object CMakeFiles/battery_node.dir/src/battery.cpp.o[0m
+[5.039s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.040s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.040s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.040s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.040s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.040s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.041s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.041s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.041s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.042s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.042s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.042s]                  from [01m[K/home/letizia/Documentos/ros2_ws/src/battery_manager/src/battery.cpp:1[m[K:
+[5.042s] [01m[K/home/letizia/Documentos/ros2_ws/src/battery_manager/src/battery.cpp:[m[K In member function ‘[01m[Kvoid BatteryNode::callSetLedService()[m[K’:
+[5.042s] [01m[K/home/letizia/Documentos/ros2_ws/src/battery_manager/src/battery.cpp:44:49:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[5.043s]    44 |                 RCLCPP_INFO(this->get_logger(), [01;35m[K"LED Panel acendeu outro LED"[m[K, response->led_on);
+[5.043s]       |                                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.045s] [01m[K/home/letizia/Documentos/ros2_ws/src/battery_manager/src/battery.cpp:61:49:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[5.045s]    61 |                 RCLCPP_INFO(this->get_logger(), [01;35m[K"LED Panel acendeu outro LED"[m[K, response->led_on);
+[5.046s]       |                                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.522s] [100%] [32m[1mLinking CXX executable battery_node[0m
+[7.902s] [100%] Built target battery_node
+[7.957s] Invoked command in '/home/letizia/Documentos/ros2_ws/build/battery_manager' returned '0': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces:/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg:/home/letizia/Documentos/ros2_ws/install/battery_manager:/home/letizia/Documentos/ros2_ws/install/my_counter:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/letizia/Documentos/ros2_ws/build/battery_manager -- -j4 -l4
+[7.965s] Invoking command in '/home/letizia/Documentos/ros2_ws/build/battery_manager': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces:/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg:/home/letizia/Documentos/ros2_ws/install/battery_manager:/home/letizia/Documentos/ros2_ws/install/my_counter:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/letizia/Documentos/ros2_ws/build/battery_manager
+[7.977s] -- Install configuration: ""
+[7.979s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/battery_manager/lib/battery_manager/led_panel
+[7.979s] -- Installing: /home/letizia/Documentos/ros2_ws/install/battery_manager/lib/battery_manager/battery_node
+[7.981s] -- Set runtime path of "/home/letizia/Documentos/ros2_ws/install/battery_manager/lib/battery_manager/battery_node" to ""
+[7.981s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/ament_index/resource_index/package_run_dependencies/battery_manager
+[7.982s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/ament_index/resource_index/parent_prefix_path/battery_manager
+[7.983s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/environment/ament_prefix_path.sh
+[7.983s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/environment/ament_prefix_path.dsv
+[7.983s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/environment/path.sh
+[7.983s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/environment/path.dsv
+[7.983s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/local_setup.bash
+[7.983s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/local_setup.sh
+[7.984s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/local_setup.zsh
+[7.984s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/local_setup.dsv
+[7.984s] -- Installing: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/package.dsv
+[7.985s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/ament_index/resource_index/packages/battery_manager
+[7.985s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/cmake/battery_managerConfig.cmake
+[7.985s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/cmake/battery_managerConfig-version.cmake
+[7.985s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/package.xml
+[7.988s] Invoked command in '/home/letizia/Documentos/ros2_ws/build/battery_manager' returned '0': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces:/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg:/home/letizia/Documentos/ros2_ws/install/battery_manager:/home/letizia/Documentos/ros2_ws/install/my_counter:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/letizia/Documentos/ros2_ws/build/battery_manager

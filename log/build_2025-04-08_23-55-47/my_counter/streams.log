@@ -1,0 +1,5 @@
+[0.027s] Invoking command in '/home/letizia/Documentos/ros2_ws/build/my_counter': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/letizia/Documentos/ros2_ws/build/my_counter -- -j4 -l4
+[0.204s] [ 50%] Built target number_publisher
+[0.208s] [100%] Built target number_counter
+[0.217s] gmake: *** [Makefile:147: all] Interrupção
+[0.221s] Invoked command in '/home/letizia/Documentos/ros2_ws/build/my_counter' returned '-2': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/letizia/Documentos/ros2_ws/build/my_counter -- -j4 -l4

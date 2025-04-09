@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+9915331d25e6eee9c0b6fe065045e515 CMakeFiles/battery_manager_uninstall

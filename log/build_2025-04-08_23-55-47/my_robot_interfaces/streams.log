@@ -1,0 +1,10 @@
+[0.027s] Invoking command in '/home/letizia/Documentos/ros2_ws/build/my_robot_interfaces': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/letizia/Documentos/ros2_ws/build/my_robot_interfaces -- -j4 -l4
+[0.166s] [  1%] Built target my_robot_interfaces__cpp
+[0.166s] [ 12%] Built target my_robot_interfaces__rosidl_generator_c
+[0.219s] [ 12%] Built target ament_cmake_python_copy_my_robot_interfaces
+[0.225s] gmake[1]: *** [CMakeFiles/Makefile2:343: CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupção
+[0.226s] gmake[1]: *** [CMakeFiles/Makefile2:396: CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/all] Interrupção
+[0.228s] gmake[2]: *** [CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:203: CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/depend] Interrupção
+[0.228s] gmake[1]: *** [CMakeFiles/Makefile2:422: CMakeFiles/ament_cmake_python_copy_my_robot_interfaces.dir/all] Interrupção
+[0.230s] gmake[1]: *** [CMakeFiles/Makefile2:368: CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/all] Interrupção
+[0.231s] gmake: *** [Makefile:146: all] Interrupção

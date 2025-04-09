@@ -2,6 +2,8 @@
   "package_name": "my_robot_interfaces",
   "non_idl_tuples": [
     "/home/letizia/Documentos/ros2_ws/src/my_robot_interfaces:msg/HardwareStatus.msg",
-    "/home/letizia/Documentos/ros2_ws/src/my_robot_interfaces:srv/ComputeRectangleArea.srv"
+    "/home/letizia/Documentos/ros2_ws/src/my_robot_interfaces:srv/ComputeRectangleArea.srv",
+    "/home/letizia/Documentos/ros2_ws/src/my_robot_interfaces:msg/LedPanelState.msg",
+    "/home/letizia/Documentos/ros2_ws/src/my_robot_interfaces:srv/SetLed.srv"
   ]
 }

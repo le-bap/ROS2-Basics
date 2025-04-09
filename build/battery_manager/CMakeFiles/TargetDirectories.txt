@@ -1,0 +1,11 @@
+/home/letizia/Documentos/ros2_ws/build/battery_manager/CMakeFiles/uninstall.dir
+/home/letizia/Documentos/ros2_ws/build/battery_manager/CMakeFiles/battery_manager_uninstall.dir
+/home/letizia/Documentos/ros2_ws/build/battery_manager/CMakeFiles/led_panel.dir
+/home/letizia/Documentos/ros2_ws/build/battery_manager/CMakeFiles/battery_node.dir
+/home/letizia/Documentos/ros2_ws/build/battery_manager/CMakeFiles/test.dir
+/home/letizia/Documentos/ros2_ws/build/battery_manager/CMakeFiles/edit_cache.dir
+/home/letizia/Documentos/ros2_ws/build/battery_manager/CMakeFiles/rebuild_cache.dir
+/home/letizia/Documentos/ros2_ws/build/battery_manager/CMakeFiles/list_install_components.dir
+/home/letizia/Documentos/ros2_ws/build/battery_manager/CMakeFiles/install.dir
+/home/letizia/Documentos/ros2_ws/build/battery_manager/CMakeFiles/install/local.dir
+/home/letizia/Documentos/ros2_ws/build/battery_manager/CMakeFiles/install/strip.dir

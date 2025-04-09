@@ -1,0 +1,10 @@
+[01m[K/home/letizia/Documentos/ros2_ws/src/battery_manager/src/battery.cpp:[m[K In member function ‘[01m[Kvoid BatteryNode::BatteryCharging()[m[K’:
+[01m[K/home/letizia/Documentos/ros2_ws/src/battery_manager/src/battery.cpp:82:14:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kauto future[m[K’
+   82 |         auto [01;31m[Kfuture[m[K = client->async_send_request(request);
+      |              [01;31m[K^~~~~~[m[K
+[01m[K/home/letizia/Documentos/ros2_ws/src/battery_manager/src/battery.cpp:78:14:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Krclcpp::Client<my_robot_interfaces::srv::SetLed>::FutureAndRequestId future[m[K’
+   78 |         auto [01;36m[Kfuture[m[K = client->async_send_request(request);
+      |              [01;36m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/battery_node.dir/build.make:76: CMakeFiles/battery_node.dir/src/battery.cpp.o] Erro 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/battery_node.dir/all] Erro 2
+gmake: *** [Makefile:146: all] Erro 2

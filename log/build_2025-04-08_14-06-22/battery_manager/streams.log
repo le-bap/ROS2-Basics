@@ -1,0 +1,15 @@
+[0.049s] Invoking command in '/home/letizia/Documentos/ros2_ws/build/battery_manager': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces:/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg:/home/letizia/Documentos/ros2_ws/install/battery_manager:/home/letizia/Documentos/ros2_ws/install/my_counter:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/letizia/Documentos/ros2_ws/build/battery_manager -- -j4 -l4
+[0.179s] [35m[1mConsolidate compiler generated dependencies of target battery_node[0m
+[0.306s] [ 50%] Built target led_panel
+[0.316s] [ 75%] [32mBuilding CXX object CMakeFiles/battery_node.dir/src/battery.cpp.o[0m
+[5.062s] [01m[K/home/letizia/Documentos/ros2_ws/src/battery_manager/src/battery.cpp:[m[K In member function ‘[01m[Kvoid BatteryNode::BatteryCharging()[m[K’:
+[5.062s] [01m[K/home/letizia/Documentos/ros2_ws/src/battery_manager/src/battery.cpp:82:14:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kauto future[m[K’
+[5.062s]    82 |         auto [01;31m[Kfuture[m[K = client->async_send_request(request);
+[5.062s]       |              [01;31m[K^~~~~~[m[K
+[5.063s] [01m[K/home/letizia/Documentos/ros2_ws/src/battery_manager/src/battery.cpp:78:14:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Krclcpp::Client<my_robot_interfaces::srv::SetLed>::FutureAndRequestId future[m[K’
+[5.063s]    78 |         auto [01;36m[Kfuture[m[K = client->async_send_request(request);
+[5.063s]       |              [01;36m[K^~~~~~[m[K
+[6.264s] gmake[2]: *** [CMakeFiles/battery_node.dir/build.make:76: CMakeFiles/battery_node.dir/src/battery.cpp.o] Erro 1
+[6.264s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/battery_node.dir/all] Erro 2
+[6.264s] gmake: *** [Makefile:146: all] Erro 2
+[6.272s] Invoked command in '/home/letizia/Documentos/ros2_ws/build/battery_manager' returned '2': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces:/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg:/home/letizia/Documentos/ros2_ws/install/battery_manager:/home/letizia/Documentos/ros2_ws/install/my_counter:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/letizia/Documentos/ros2_ws/build/battery_manager -- -j4 -l4

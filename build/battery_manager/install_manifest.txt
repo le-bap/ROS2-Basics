@@ -1,0 +1,17 @@
+/home/letizia/Documentos/ros2_ws/install/battery_manager/lib/battery_manager/led_panel
+/home/letizia/Documentos/ros2_ws/install/battery_manager/lib/battery_manager/battery_node
+/home/letizia/Documentos/ros2_ws/install/battery_manager/share/ament_index/resource_index/package_run_dependencies/battery_manager
+/home/letizia/Documentos/ros2_ws/install/battery_manager/share/ament_index/resource_index/parent_prefix_path/battery_manager
+/home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/environment/ament_prefix_path.sh
+/home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/environment/ament_prefix_path.dsv
+/home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/environment/path.sh
+/home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/environment/path.dsv
+/home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/local_setup.bash
+/home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/local_setup.sh
+/home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/local_setup.zsh
+/home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/local_setup.dsv
+/home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/package.dsv
+/home/letizia/Documentos/ros2_ws/install/battery_manager/share/ament_index/resource_index/packages/battery_manager
+/home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/cmake/battery_managerConfig.cmake
+/home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/cmake/battery_managerConfig-version.cmake
+/home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/package.xml

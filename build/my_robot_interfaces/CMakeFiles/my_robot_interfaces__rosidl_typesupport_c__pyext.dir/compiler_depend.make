@@ -248,14 +248,26 @@ CMakeFiles/my_robot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
   rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__functions.h \
+  rosidl_generator_c/my_robot_interfaces/msg/detail/led_panel_state__type_support.h \
+  rosidl_generator_c/my_robot_interfaces/msg/detail/led_panel_state__struct.h \
+  rosidl_generator_c/my_robot_interfaces/msg/detail/led_panel_state__functions.h \
   rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.h \
   rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.h \
-  rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.h
+  rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.h \
+  rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__type_support.h \
+  rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__struct.h \
+  rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__functions.h
 
+
+rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__functions.h:
 
 rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.h:
 
 rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.h:
+
+rosidl_generator_c/my_robot_interfaces/msg/detail/led_panel_state__functions.h:
+
+rosidl_generator_c/my_robot_interfaces/msg/detail/led_panel_state__type_support.h:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
 
@@ -519,6 +531,8 @@ rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesup
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
+rosidl_generator_c/my_robot_interfaces/msg/detail/led_panel_state__struct.h:
+
 /usr/include/python3.10/cpython/traceback.h:
 
 /usr/include/x86_64-linux-gnu/bits/errno.h:
@@ -559,6 +573,8 @@ rosidl_generator_c/my_robot_interfaces/msg/rosidl_generator_c__visibility_contro
 
 /usr/include/inttypes.h:
 
+rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__struct.h:
+
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
 /usr/include/python3.10/weakrefobject.h:
@@ -588,6 +604,8 @@ rosidl_generator_c/my_robot_interfaces/msg/rosidl_generator_c__visibility_contro
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__type_support.h:
 
 /usr/include/python3.10/funcobject.h:
 

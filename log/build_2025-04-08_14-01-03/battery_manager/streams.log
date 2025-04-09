@@ -1,0 +1,28 @@
+[0.034s] Invoking command in '/home/letizia/Documentos/ros2_ws/build/battery_manager': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces:/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg:/home/letizia/Documentos/ros2_ws/install/battery_manager:/home/letizia/Documentos/ros2_ws/install/my_counter:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/letizia/Documentos/ros2_ws/build/battery_manager -- -j4 -l4
+[0.148s] [35m[1mConsolidate compiler generated dependencies of target battery_node[0m
+[0.231s] [ 50%] Built target led_panel
+[0.252s] [ 75%] [32mBuilding CXX object CMakeFiles/battery_node.dir/src/battery.cpp.o[0m
+[7.721s] [100%] [32m[1mLinking CXX executable battery_node[0m
+[8.004s] [100%] Built target battery_node
+[8.021s] Invoked command in '/home/letizia/Documentos/ros2_ws/build/battery_manager' returned '0': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces:/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg:/home/letizia/Documentos/ros2_ws/install/battery_manager:/home/letizia/Documentos/ros2_ws/install/my_counter:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/letizia/Documentos/ros2_ws/build/battery_manager -- -j4 -l4
+[8.024s] Invoking command in '/home/letizia/Documentos/ros2_ws/build/battery_manager': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces:/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg:/home/letizia/Documentos/ros2_ws/install/battery_manager:/home/letizia/Documentos/ros2_ws/install/my_counter:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/letizia/Documentos/ros2_ws/build/battery_manager
+[8.035s] -- Install configuration: ""
+[8.035s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/battery_manager/lib/battery_manager/led_panel
+[8.036s] -- Installing: /home/letizia/Documentos/ros2_ws/install/battery_manager/lib/battery_manager/battery_node
+[8.037s] -- Set runtime path of "/home/letizia/Documentos/ros2_ws/install/battery_manager/lib/battery_manager/battery_node" to ""
+[8.037s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/ament_index/resource_index/package_run_dependencies/battery_manager
+[8.039s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/ament_index/resource_index/parent_prefix_path/battery_manager
+[8.039s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/environment/ament_prefix_path.sh
+[8.039s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/environment/ament_prefix_path.dsv
+[8.040s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/environment/path.sh
+[8.040s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/environment/path.dsv
+[8.040s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/local_setup.bash
+[8.040s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/local_setup.sh
+[8.040s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/local_setup.zsh
+[8.041s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/local_setup.dsv
+[8.041s] -- Installing: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/package.dsv
+[8.041s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/ament_index/resource_index/packages/battery_manager
+[8.041s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/cmake/battery_managerConfig.cmake
+[8.041s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/cmake/battery_managerConfig-version.cmake
+[8.042s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/package.xml
+[8.044s] Invoked command in '/home/letizia/Documentos/ros2_ws/build/battery_manager' returned '0': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces:/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg:/home/letizia/Documentos/ros2_ws/install/battery_manager:/home/letizia/Documentos/ros2_ws/install/my_counter:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/letizia/Documentos/ros2_ws/build/battery_manager

@@ -1,0 +1,34 @@
+[0.050s] Invoking command in '/home/letizia/Documentos/ros2_ws/build/my_cpp_pkg': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces:/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg:/home/letizia/Documentos/ros2_ws/install/battery_manager:/home/letizia/Documentos/ros2_ws/install/my_counter:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/letizia/Documentos/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+[0.227s] [ 14%] Built target cpp_node
+[0.237s] [ 28%] Built target add_two_ints_server
+[0.243s] [ 42%] Built target smartphone
+[0.256s] [ 57%] Built target robot_news_station
+[0.295s] [ 71%] Built target add_two_ints_client_no_oop
+[0.324s] [ 85%] Built target add_two_ints_client
+[0.349s] [100%] Built target hw_status_publisher
+[0.960s] Invoked command in '/home/letizia/Documentos/ros2_ws/build/my_cpp_pkg' returned '0': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces:/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg:/home/letizia/Documentos/ros2_ws/install/battery_manager:/home/letizia/Documentos/ros2_ws/install/my_counter:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/letizia/Documentos/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+[0.966s] Invoking command in '/home/letizia/Documentos/ros2_ws/build/my_cpp_pkg': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces:/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg:/home/letizia/Documentos/ros2_ws/install/battery_manager:/home/letizia/Documentos/ros2_ws/install/my_counter:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/letizia/Documentos/ros2_ws/build/my_cpp_pkg
+[0.989s] -- Install configuration: ""
+[0.990s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[0.990s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[0.992s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+[0.993s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server
+[0.993s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop
+[0.994s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client
+[0.994s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/hw_status_publisher
+[0.997s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[0.998s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[0.998s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[0.999s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[0.999s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[1.002s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[1.002s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[1.002s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[1.002s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[1.004s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[1.005s] -- Installing: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[1.005s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[1.005s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[1.005s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[1.005s] -- Up-to-date: /home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[1.010s] Invoked command in '/home/letizia/Documentos/ros2_ws/build/my_cpp_pkg' returned '0': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces:/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg:/home/letizia/Documentos/ros2_ws/install/battery_manager:/home/letizia/Documentos/ros2_ws/install/my_counter:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/letizia/Documentos/ros2_ws/build/my_cpp_pkg

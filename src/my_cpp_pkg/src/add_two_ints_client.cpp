@@ -45,7 +45,7 @@ public:
     }
     
 private:
-    // criando uma thread para rodar a função pois se ela for chamada direto pelo contrutor
+    // criando uma thread para rodar a função pois se ela for chamada direto pelo construtor
     // o nó não executará o spin
     std::thread thread1;
     std::thread thread2;

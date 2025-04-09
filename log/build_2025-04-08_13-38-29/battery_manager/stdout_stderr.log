@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target led_panel[0m
+[ 50%] Built target led_panel
+[35m[1mConsolidate compiler generated dependencies of target battery_node[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/battery_node.dir/src/battery.cpp.o[0m
+[100%] [32m[1mLinking CXX executable battery_node[0m
+[100%] Built target battery_node
+-- Install configuration: ""
+-- Installing: /home/letizia/Documentos/ros2_ws/install/battery_manager/lib/battery_manager/led_panel
+-- Set runtime path of "/home/letizia/Documentos/ros2_ws/install/battery_manager/lib/battery_manager/led_panel" to ""
+-- Installing: /home/letizia/Documentos/ros2_ws/install/battery_manager/lib/battery_manager/battery_node
+-- Set runtime path of "/home/letizia/Documentos/ros2_ws/install/battery_manager/lib/battery_manager/battery_node" to ""
+-- Installing: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/ament_index/resource_index/package_run_dependencies/battery_manager
+-- Installing: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/ament_index/resource_index/parent_prefix_path/battery_manager
+-- Installing: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/environment/ament_prefix_path.sh
+-- Installing: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/environment/ament_prefix_path.dsv
+-- Installing: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/environment/path.sh
+-- Installing: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/environment/path.dsv
+-- Installing: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/local_setup.bash
+-- Installing: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/local_setup.sh
+-- Installing: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/local_setup.zsh
+-- Installing: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/local_setup.dsv
+-- Installing: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/package.dsv
+-- Installing: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/ament_index/resource_index/packages/battery_manager
+-- Installing: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/cmake/battery_managerConfig.cmake
+-- Installing: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/cmake/battery_managerConfig-version.cmake
+-- Installing: /home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/package.xml

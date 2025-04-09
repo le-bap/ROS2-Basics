@@ -1,0 +1,392 @@
+[0.157s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.157s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x726c98ffed70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x726c99153c70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x726c99153c70>>, mixin_verb=('build',))
+[0.467s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.468s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/letizia/Documentos/ros2_ws'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_manager) by extensions ['ignore', 'ignore_ament_install']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_manager) by extension 'ignore'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_manager) by extension 'ignore_ament_install'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_manager) by extensions ['colcon_pkg']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_manager) by extension 'colcon_pkg'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_manager) by extensions ['colcon_meta']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_manager) by extension 'colcon_meta'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_manager) by extensions ['ros']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_manager) by extension 'ros'
+[0.498s] DEBUG:colcon.colcon_core.package_identification:Package 'src/battery_manager' with type 'ros.ament_cmake' and name 'battery_manager'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_counter) by extensions ['ignore', 'ignore_ament_install']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_counter) by extension 'ignore'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_counter) by extension 'ignore_ament_install'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_counter) by extensions ['colcon_pkg']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_counter) by extension 'colcon_pkg'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_counter) by extensions ['colcon_meta']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_counter) by extension 'colcon_meta'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_counter) by extensions ['ros']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_counter) by extension 'ros'
+[0.502s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_counter' with type 'ros.ament_cmake' and name 'my_counter'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'ignore'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'ignore_ament_install'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extensions ['colcon_pkg']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'colcon_pkg'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extensions ['colcon_meta']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'colcon_meta'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extensions ['ros']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'ros'
+[0.504s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_cpp_pkg' with type 'ros.ament_cmake' and name 'my_cpp_pkg'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ignore'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ignore_ament_install'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['colcon_pkg']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'colcon_pkg'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['colcon_meta']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'colcon_meta'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['ros']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ros'
+[0.506s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_py_pkg' with type 'ros.ament_python' and name 'my_py_pkg'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ignore'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ignore_ament_install'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['colcon_pkg']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'colcon_pkg'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['colcon_meta']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'colcon_meta'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['ros']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ros'
+[0.508s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_interfaces' with type 'ros.ament_cmake' and name 'my_robot_interfaces'
+[0.508s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.509s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.509s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.509s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.509s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.574s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.574s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.577s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/letizia/Documentos/ros2_ws/install
+[0.579s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.582s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.652s] Level 5:colcon.colcon_core.verb:set package 'my_counter' build argument 'cmake_args' from command line to 'None'
+[0.652s] Level 5:colcon.colcon_core.verb:set package 'my_counter' build argument 'cmake_target' from command line to 'None'
+[0.652s] Level 5:colcon.colcon_core.verb:set package 'my_counter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.652s] Level 5:colcon.colcon_core.verb:set package 'my_counter' build argument 'cmake_clean_cache' from command line to 'False'
+[0.652s] Level 5:colcon.colcon_core.verb:set package 'my_counter' build argument 'cmake_clean_first' from command line to 'False'
+[0.652s] Level 5:colcon.colcon_core.verb:set package 'my_counter' build argument 'cmake_force_configure' from command line to 'False'
+[0.652s] Level 5:colcon.colcon_core.verb:set package 'my_counter' build argument 'ament_cmake_args' from command line to 'None'
+[0.652s] Level 5:colcon.colcon_core.verb:set package 'my_counter' build argument 'catkin_cmake_args' from command line to 'None'
+[0.652s] Level 5:colcon.colcon_core.verb:set package 'my_counter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.652s] DEBUG:colcon.colcon_core.verb:Building package 'my_counter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/letizia/Documentos/ros2_ws/build/my_counter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/letizia/Documentos/ros2_ws/install/my_counter', 'merge_install': False, 'path': '/home/letizia/Documentos/ros2_ws/src/my_counter', 'symlink_install': False, 'test_result_base': None}
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.653s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/letizia/Documentos/ros2_ws/build/my_robot_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces', 'merge_install': False, 'path': '/home/letizia/Documentos/ros2_ws/src/my_robot_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'battery_manager' build argument 'cmake_args' from command line to 'None'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'battery_manager' build argument 'cmake_target' from command line to 'None'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'battery_manager' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'battery_manager' build argument 'cmake_clean_cache' from command line to 'False'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'battery_manager' build argument 'cmake_clean_first' from command line to 'False'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'battery_manager' build argument 'cmake_force_configure' from command line to 'False'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'battery_manager' build argument 'ament_cmake_args' from command line to 'None'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'battery_manager' build argument 'catkin_cmake_args' from command line to 'None'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'battery_manager' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.654s] DEBUG:colcon.colcon_core.verb:Building package 'battery_manager' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/letizia/Documentos/ros2_ws/build/battery_manager', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/letizia/Documentos/ros2_ws/install/battery_manager', 'merge_install': False, 'path': '/home/letizia/Documentos/ros2_ws/src/battery_manager', 'symlink_install': False, 'test_result_base': None}
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_args' from command line to 'None'
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_target' from command line to 'None'
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.655s] DEBUG:colcon.colcon_core.verb:Building package 'my_cpp_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/letizia/Documentos/ros2_ws/build/my_cpp_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg', 'merge_install': False, 'path': '/home/letizia/Documentos/ros2_ws/src/my_cpp_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_args' from command line to 'None'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_target' from command line to 'None'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.656s] DEBUG:colcon.colcon_core.verb:Building package 'my_py_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/letizia/Documentos/ros2_ws/build/my_py_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/letizia/Documentos/ros2_ws/install/my_py_pkg', 'merge_install': False, 'path': '/home/letizia/Documentos/ros2_ws/src/my_py_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.656s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.658s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.658s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/letizia/Documentos/ros2_ws/src/my_robot_interfaces' with build type 'ament_cmake'
+[0.658s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/letizia/Documentos/ros2_ws/src/my_robot_interfaces'
+[0.662s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.662s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.662s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.669s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/letizia/Documentos/ros2_ws/src/my_counter' with build type 'ament_cmake'
+[0.669s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/letizia/Documentos/ros2_ws/src/my_counter'
+[0.669s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.669s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.689s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/letizia/Documentos/ros2_ws/build/my_robot_interfaces': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/letizia/Documentos/ros2_ws/build/my_robot_interfaces -- -j4 -l4
+[0.707s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/letizia/Documentos/ros2_ws/build/my_counter': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/letizia/Documentos/ros2_ws/build/my_counter -- -j4 -l4
+[0.921s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/letizia/Documentos/ros2_ws/build/my_counter' returned '0': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/letizia/Documentos/ros2_ws/build/my_counter -- -j4 -l4
+[0.957s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/letizia/Documentos/ros2_ws/build/my_counter': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/letizia/Documentos/ros2_ws/build/my_counter
+[1.002s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_counter)
+[1.010s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/letizia/Documentos/ros2_ws/build/my_counter' returned '0': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/letizia/Documentos/ros2_ws/build/my_counter
+[1.013s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_counter' for CMake module files
+[1.015s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_counter' for CMake config files
+[1.016s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_counter', 'cmake_prefix_path')
+[1.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/letizia/Documentos/ros2_ws/install/my_counter/share/my_counter/hook/cmake_prefix_path.ps1'
+[1.018s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/letizia/Documentos/ros2_ws/install/my_counter/share/my_counter/hook/cmake_prefix_path.dsv'
+[1.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/letizia/Documentos/ros2_ws/install/my_counter/share/my_counter/hook/cmake_prefix_path.sh'
+[1.022s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_counter/lib'
+[1.023s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_counter/bin'
+[1.023s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_counter/lib/pkgconfig/my_counter.pc'
+[1.023s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_counter/lib/python3.10/site-packages'
+[1.024s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_counter/bin'
+[1.025s] INFO:colcon.colcon_core.shell:Creating package script '/home/letizia/Documentos/ros2_ws/install/my_counter/share/my_counter/package.ps1'
+[1.027s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/letizia/Documentos/ros2_ws/install/my_counter/share/my_counter/package.dsv'
+[1.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/letizia/Documentos/ros2_ws/install/my_counter/share/my_counter/package.sh'
+[1.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/letizia/Documentos/ros2_ws/install/my_counter/share/my_counter/package.bash'
+[1.037s] INFO:colcon.colcon_core.shell:Creating package script '/home/letizia/Documentos/ros2_ws/install/my_counter/share/my_counter/package.zsh'
+[1.040s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/letizia/Documentos/ros2_ws/install/my_counter/share/colcon-core/packages/my_counter)
+[1.044s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_counter)
+[1.044s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_counter' for CMake module files
+[1.046s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_counter' for CMake config files
+[1.048s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_counter', 'cmake_prefix_path')
+[1.049s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/letizia/Documentos/ros2_ws/install/my_counter/share/my_counter/hook/cmake_prefix_path.ps1'
+[1.050s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/letizia/Documentos/ros2_ws/install/my_counter/share/my_counter/hook/cmake_prefix_path.dsv'
+[1.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/letizia/Documentos/ros2_ws/install/my_counter/share/my_counter/hook/cmake_prefix_path.sh'
+[1.054s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_counter/lib'
+[1.054s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_counter/bin'
+[1.055s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_counter/lib/pkgconfig/my_counter.pc'
+[1.056s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_counter/lib/python3.10/site-packages'
+[1.057s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_counter/bin'
+[1.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/letizia/Documentos/ros2_ws/install/my_counter/share/my_counter/package.ps1'
+[1.059s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/letizia/Documentos/ros2_ws/install/my_counter/share/my_counter/package.dsv'
+[1.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/letizia/Documentos/ros2_ws/install/my_counter/share/my_counter/package.sh'
+[1.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/letizia/Documentos/ros2_ws/install/my_counter/share/my_counter/package.bash'
+[1.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/letizia/Documentos/ros2_ws/install/my_counter/share/my_counter/package.zsh'
+[1.067s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/letizia/Documentos/ros2_ws/install/my_counter/share/colcon-core/packages/my_counter)
+[1.620s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/letizia/Documentos/ros2_ws/build/my_robot_interfaces' returned '0': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/letizia/Documentos/ros2_ws/build/my_robot_interfaces -- -j4 -l4
+[1.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/letizia/Documentos/ros2_ws/build/my_robot_interfaces': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/letizia/Documentos/ros2_ws/build/my_robot_interfaces
+[1.836s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_interfaces)
+[1.836s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces' for CMake module files
+[1.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/letizia/Documentos/ros2_ws/build/my_robot_interfaces' returned '0': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/letizia/Documentos/ros2_ws/build/my_robot_interfaces
+[1.839s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces' for CMake config files
+[1.840s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'cmake_prefix_path')
+[1.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.ps1'
+[1.842s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.dsv'
+[1.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.sh'
+[1.844s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces/lib'
+[1.844s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'ld_library_path_lib')
+[1.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.ps1'
+[1.845s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.dsv'
+[1.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.sh'
+[1.849s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces/bin'
+[1.850s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces/lib/pkgconfig/my_robot_interfaces.pc'
+[1.851s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces/lib/python3.10/site-packages'
+[1.851s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces/bin'
+[1.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.ps1'
+[1.853s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv'
+[1.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.sh'
+[1.855s] INFO:colcon.colcon_core.shell:Creating package script '/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.bash'
+[1.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.zsh'
+[1.857s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces/share/colcon-core/packages/my_robot_interfaces)
+[1.858s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_interfaces)
+[1.859s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces' for CMake module files
+[1.860s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces' for CMake config files
+[1.861s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'cmake_prefix_path')
+[1.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.ps1'
+[1.863s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.dsv'
+[1.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.sh'
+[1.867s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces/lib'
+[1.867s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'ld_library_path_lib')
+[1.868s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.ps1'
+[1.869s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.dsv'
+[1.869s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.sh'
+[1.870s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces/bin'
+[1.870s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces/lib/pkgconfig/my_robot_interfaces.pc'
+[1.871s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces/lib/python3.10/site-packages'
+[1.872s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces/bin'
+[1.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.ps1'
+[1.874s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv'
+[1.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.sh'
+[1.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.bash'
+[1.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.zsh'
+[1.878s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces/share/colcon-core/packages/my_robot_interfaces)
+[1.879s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/letizia/Documentos/ros2_ws/src/battery_manager' with build type 'ament_cmake'
+[1.880s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/letizia/Documentos/ros2_ws/src/battery_manager'
+[1.881s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.881s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.890s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/letizia/Documentos/ros2_ws/src/my_cpp_pkg' with build type 'ament_cmake'
+[1.890s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/letizia/Documentos/ros2_ws/src/my_cpp_pkg'
+[1.891s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.891s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.900s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/letizia/Documentos/ros2_ws/src/my_py_pkg' with build type 'ament_python'
+[1.901s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_py_pkg', 'ament_prefix_path')
+[1.901s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/letizia/Documentos/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.ps1'
+[1.902s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/letizia/Documentos/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.dsv'
+[1.905s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/letizia/Documentos/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.sh'
+[1.907s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.907s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.927s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/letizia/Documentos/ros2_ws/build/battery_manager': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces:/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg:/home/letizia/Documentos/ros2_ws/install/battery_manager:/home/letizia/Documentos/ros2_ws/install/my_counter:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/letizia/Documentos/ros2_ws/build/battery_manager -- -j4 -l4
+[1.936s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/letizia/Documentos/ros2_ws/build/my_cpp_pkg': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces:/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg:/home/letizia/Documentos/ros2_ws/install/battery_manager:/home/letizia/Documentos/ros2_ws/install/my_counter:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/letizia/Documentos/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+[2.653s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/letizia/Documentos/ros2_ws/src/my_py_pkg'
+[2.654s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.654s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.662s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/letizia/Documentos/ros2_ws/build/my_cpp_pkg' returned '0': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces:/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg:/home/letizia/Documentos/ros2_ws/install/battery_manager:/home/letizia/Documentos/ros2_ws/install/my_counter:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/letizia/Documentos/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+[2.665s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/letizia/Documentos/ros2_ws/build/my_cpp_pkg': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces:/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg:/home/letizia/Documentos/ros2_ws/install/battery_manager:/home/letizia/Documentos/ros2_ws/install/my_counter:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/letizia/Documentos/ros2_ws/build/my_cpp_pkg
+[2.704s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_cpp_pkg)
+[2.704s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg' for CMake module files
+[2.710s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/letizia/Documentos/ros2_ws/build/my_cpp_pkg' returned '0': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces:/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg:/home/letizia/Documentos/ros2_ws/install/battery_manager:/home/letizia/Documentos/ros2_ws/install/my_counter:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/letizia/Documentos/ros2_ws/build/my_cpp_pkg
+[2.711s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg' for CMake config files
+[2.711s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_cpp_pkg', 'cmake_prefix_path')
+[2.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/hook/cmake_prefix_path.ps1'
+[2.717s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/hook/cmake_prefix_path.dsv'
+[2.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/hook/cmake_prefix_path.sh'
+[2.721s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/lib'
+[2.721s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/bin'
+[2.723s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/lib/pkgconfig/my_cpp_pkg.pc'
+[2.728s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/lib/python3.10/site-packages'
+[2.729s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/bin'
+[2.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.ps1'
+[2.737s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv'
+[2.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.sh'
+[2.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.bash'
+[2.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.zsh'
+[2.742s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/colcon-core/packages/my_cpp_pkg)
+[2.743s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_cpp_pkg)
+[2.744s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg' for CMake module files
+[2.745s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg' for CMake config files
+[2.748s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_cpp_pkg', 'cmake_prefix_path')
+[2.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/hook/cmake_prefix_path.ps1'
+[2.752s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/hook/cmake_prefix_path.dsv'
+[2.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/hook/cmake_prefix_path.sh'
+[2.754s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/lib'
+[2.754s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/bin'
+[2.754s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/lib/pkgconfig/my_cpp_pkg.pc'
+[2.755s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/lib/python3.10/site-packages'
+[2.756s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/bin'
+[2.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.ps1'
+[2.759s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv'
+[2.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.sh'
+[2.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.bash'
+[2.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.zsh'
+[2.766s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg/share/colcon-core/packages/my_cpp_pkg)
+[3.611s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/letizia/Documentos/ros2_ws/src/my_py_pkg': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces:/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg:/home/letizia/Documentos/ros2_ws/install/battery_manager:/home/letizia/Documentos/ros2_ws/install/my_counter PYTHONPATH=/home/letizia/Documentos/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/letizia/Documentos/ros2_ws/build/my_py_pkg/build install --record /home/letizia/Documentos/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[4.342s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_py_pkg' for CMake module files
+[4.343s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/letizia/Documentos/ros2_ws/src/my_py_pkg' returned '0': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces:/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg:/home/letizia/Documentos/ros2_ws/install/battery_manager:/home/letizia/Documentos/ros2_ws/install/my_counter PYTHONPATH=/home/letizia/Documentos/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/letizia/Documentos/ros2_ws/build/my_py_pkg/build install --record /home/letizia/Documentos/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[4.344s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_py_pkg' for CMake config files
+[4.345s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib'
+[4.345s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_py_pkg/bin'
+[4.345s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib/pkgconfig/my_py_pkg.pc'
+[4.347s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages'
+[4.347s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_py_pkg', 'pythonpath')
+[4.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/letizia/Documentos/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.ps1'
+[4.350s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/letizia/Documentos/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.dsv'
+[4.351s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/letizia/Documentos/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.sh'
+[4.352s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/my_py_pkg/bin'
+[4.353s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_py_pkg)
+[4.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/letizia/Documentos/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.ps1'
+[4.355s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/letizia/Documentos/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.dsv'
+[4.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/letizia/Documentos/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.sh'
+[4.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/letizia/Documentos/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.bash'
+[4.358s] INFO:colcon.colcon_core.shell:Creating package script '/home/letizia/Documentos/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.zsh'
+[4.359s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/letizia/Documentos/ros2_ws/install/my_py_pkg/share/colcon-core/packages/my_py_pkg)
+[11.946s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/letizia/Documentos/ros2_ws/build/battery_manager' returned '0': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces:/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg:/home/letizia/Documentos/ros2_ws/install/battery_manager:/home/letizia/Documentos/ros2_ws/install/my_counter:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/letizia/Documentos/ros2_ws/build/battery_manager -- -j4 -l4
+[11.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/letizia/Documentos/ros2_ws/build/battery_manager': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces:/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg:/home/letizia/Documentos/ros2_ws/install/battery_manager:/home/letizia/Documentos/ros2_ws/install/my_counter:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/letizia/Documentos/ros2_ws/build/battery_manager
+[11.972s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(battery_manager)
+[11.973s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/battery_manager' for CMake module files
+[11.974s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/battery_manager' for CMake config files
+[11.975s] Level 1:colcon.colcon_core.shell:create_environment_hook('battery_manager', 'cmake_prefix_path')
+[11.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/hook/cmake_prefix_path.ps1'
+[11.976s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/letizia/Documentos/ros2_ws/build/battery_manager' returned '0': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/home/letizia/Documentos/ros2_ws/install/my_robot_interfaces:/home/letizia/Documentos/ros2_ws/install/my_cpp_pkg:/home/letizia/Documentos/ros2_ws/install/battery_manager:/home/letizia/Documentos/ros2_ws/install/my_counter:/home/letizia/Documentos/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/letizia/Documentos/ros2_ws/build/battery_manager
+[11.978s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/hook/cmake_prefix_path.dsv'
+[11.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/hook/cmake_prefix_path.sh'
+[11.980s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/battery_manager/lib'
+[11.981s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/battery_manager/bin'
+[11.981s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/battery_manager/lib/pkgconfig/battery_manager.pc'
+[11.981s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/battery_manager/lib/python3.10/site-packages'
+[11.982s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/battery_manager/bin'
+[11.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/package.ps1'
+[11.984s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/package.dsv'
+[11.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/package.sh'
+[11.986s] INFO:colcon.colcon_core.shell:Creating package script '/home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/package.bash'
+[11.986s] INFO:colcon.colcon_core.shell:Creating package script '/home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/package.zsh'
+[11.987s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/letizia/Documentos/ros2_ws/install/battery_manager/share/colcon-core/packages/battery_manager)
+[11.988s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(battery_manager)
+[11.988s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/battery_manager' for CMake module files
+[11.989s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/battery_manager' for CMake config files
+[11.990s] Level 1:colcon.colcon_core.shell:create_environment_hook('battery_manager', 'cmake_prefix_path')
+[11.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/hook/cmake_prefix_path.ps1'
+[11.991s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/hook/cmake_prefix_path.dsv'
+[11.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/hook/cmake_prefix_path.sh'
+[11.993s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/battery_manager/lib'
+[11.993s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/battery_manager/bin'
+[11.993s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/battery_manager/lib/pkgconfig/battery_manager.pc'
+[11.994s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/battery_manager/lib/python3.10/site-packages'
+[11.994s] Level 1:colcon.colcon_core.environment:checking '/home/letizia/Documentos/ros2_ws/install/battery_manager/bin'
+[11.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/package.ps1'
+[11.996s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/package.dsv'
+[11.997s] INFO:colcon.colcon_core.shell:Creating package script '/home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/package.sh'
+[11.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/package.bash'
+[12.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/letizia/Documentos/ros2_ws/install/battery_manager/share/battery_manager/package.zsh'
+[12.001s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/letizia/Documentos/ros2_ws/install/battery_manager/share/colcon-core/packages/battery_manager)
+[12.001s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.002s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.002s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.002s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.011s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[12.011s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.011s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.011s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.027s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.028s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/letizia/Documentos/ros2_ws/install/local_setup.ps1'
+[12.034s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/letizia/Documentos/ros2_ws/install/_local_setup_util_ps1.py'
+[12.038s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/letizia/Documentos/ros2_ws/install/setup.ps1'
+[12.040s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/letizia/Documentos/ros2_ws/install/local_setup.sh'
+[12.042s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/letizia/Documentos/ros2_ws/install/_local_setup_util_sh.py'
+[12.043s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/letizia/Documentos/ros2_ws/install/setup.sh'
+[12.045s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/letizia/Documentos/ros2_ws/install/local_setup.bash'
+[12.046s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/letizia/Documentos/ros2_ws/install/setup.bash'
+[12.050s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/letizia/Documentos/ros2_ws/install/local_setup.zsh'
+[12.052s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/letizia/Documentos/ros2_ws/install/setup.zsh'
